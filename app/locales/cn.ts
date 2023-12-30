@@ -165,8 +165,8 @@ const cn = {
       IsLatest: "已是最新版本",
       CheckUpdate: "检查更新",
       IsChecking: "正在检查更新...",
-      FoundUpdate: (x: string) => `发现新版本：${x}`,
-      GoToUpdate: "前往更新",
+      FoundUpdate: (x: string) => `请等待新版本更新：${x}`,
+      GoToUpdate: "Github仓库",
     },
     SendKey: "发送键",
     Theme: "主题",
@@ -359,8 +359,8 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
-    Error: "出错了，稍后重试吧",
+    BotHello: "你好！这里是一个免费的ChatGPT网站 \n 请勿滥用！出现问题联系zhangMonday@qq.com \n 欢迎来我的[个人主页](https://www.zhangMonday.top)看看！",
+    Error: "出错了，稍后重试吧(若持续出现问题请联系zhangMonday@qq.com)",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
       Topic:
@@ -437,7 +437,7 @@ const cn = {
     NotShow: "不再展示",
     ConfirmNoShow: "确认禁用？禁用后可以随时在设置中重新启用。",
     Title: "挑选一个面具",
-    SubTitle: "现在开始，与面具背后的灵魂思维碰撞",
+    SubTitle: "挑选一个提示词或点击直接开始聊天",
     More: "查看全部",
   },
 
