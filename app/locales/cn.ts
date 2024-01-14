@@ -359,7 +359,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "你好！这里是一个免费的ChatGPT网站 \n 请勿滥用！出现问题联系zhangMonday@qq.com \n 欢迎来我的[个人主页](https://www.zhangMonday.top)看看！",
+    BotHello: "你好！这里是一个免费的ChatGPT网站 \n 请勿滥用！出现问题联系zhangMonday@qq.com \n 欢迎来我的[个人主页](https://www.zhangMonday.top)看看！\n 网站还不错？你的[捐赠](https://donate.zhangmonday.top)是我生存的动力",
     Error: "出错了，稍后重试吧(若持续出现问题请联系zhangMonday@qq.com)",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
